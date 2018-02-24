@@ -128,6 +128,6 @@
 3. 跟SDWebImage对缓存的处理 当出现内存警告和app进入后台的时候 就会自动删除链表内的所有节点
 4. 互斥锁需要作用于 链表对节点的增加 删除 查询 以及对_totalCost _totalCount等操作 而且这个互斥锁是使用pthread_mutex_t 既性能高也可以保证线程安全 
 
-![lock_benchmark](/Users/guomanli/Downloads/lock_benchmark.png)
+![lock_benchmark](../Pics/lock_benchmark.png)
 
 该类的方法实现的代码注释我都写完 放在SourceCode文件夹里

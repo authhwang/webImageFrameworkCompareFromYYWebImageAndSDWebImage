@@ -1,9 +1,9 @@
 # YYCache
 
-整个YYCache的结构是 既有通过缓存进行高速存取的YYMemoryCache 也有针对本地的缓速持久化保存的YYDiskCache 所以可以看完YYCache再将其细分成这两个部分来观看 不过先看看YYCache的属性和方法 （图从别的博客盗用一下）![yycache](/Users/guomanli/Downloads/yycache.jpg)
+整个YYCache的结构是 既有通过缓存进行高速存取的YYMemoryCache 也有针对本地的缓速持久化保存的YYDiskCache 所以可以看完YYCache再将其细分成这两个部分来观看 不过先看看YYCache的属性和方法 （图从别的博客盗用一下）![yycache](./Pics/yycache.jpg)
 
-* [YYMemoryCache]()
-* [YYDiskCache]()
+* [YYMemoryCache](./YYMemoryCache)
+* [YYDiskCache](./YYDiskCache)
 
 ## YYCache的头文件
 
@@ -212,7 +212,7 @@ count、age、cost三个维度来判断缓存的清理
 
 假如用数据来展示 就需要借用ibireme作者下的图片啦～
 
-![disk_cache_bench_result](/Users/guomanli/Downloads/disk_cache_bench_result.png)
+![disk_cache_bench_result](./Pics/disk_cache_bench_result.png)
 
 ### 文章参考
 

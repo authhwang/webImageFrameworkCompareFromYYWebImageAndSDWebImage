@@ -2,7 +2,7 @@
 
 YYWebImage的结构如下（图是盗用一下～）
 
-![yyimage_struct](/Users/guomanli/Downloads/yyimage_struct.png)
+![yyimage_struct](./Pics/yyimage_struct.png)
 
 针对从UIImageView 调用seturl方法的实现内部可以看我写的注释就大概明白的
 
@@ -14,9 +14,9 @@ YYWebImage的结构如下（图是盗用一下～）
 
 所以我打算将Image的部分分成三个部分
 
-* [YYImageCoder]()
-* [YYWebImageOperation]()
-* [YYAnimationImageView]()
+* [YYImageCoder](./YYImageCoder)
+* [YYWebImageOperation](./YYWebImageOperation)
+* [YYAnimationImageView](./YYAnimationImageView)
 
 为什么会将其分成这三个部分 而不是按照图片的结构去划分呢 我觉得三个类YYImage YYFrameImage YYSpriteSheetImage可以直接看其源码就能明白其作用
 

@@ -1,0 +1,3 @@
+# gif
+
+关于图片类型为gif方面的情况下 sdwebimage作者在4.0的时候推荐是使用FLAnimatedImage 假如想直接用UIImageView的话 就要分不同的coder 假如你是用SDWebImageIOCoder 只能是变成静态 假如用SDWebImageGifCoder 则作者觉得性能上会低于FLAnimatedImage 不过我把SDWebImageGifCoder 解码部分也大致写了 有部分地方不是很懂 假如以后明白了就会补充上去的

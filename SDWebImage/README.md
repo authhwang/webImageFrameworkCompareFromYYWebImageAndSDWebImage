@@ -2,9 +2,9 @@
 
 先看下面这两张图 （源于SDWebImage库里的）:
 
-![SDWebImageClassDiagram](/Users/guomanli/Downloads/SDWebImageClassDiagram.png)
+![SDWebImageClassDiagram](./Pics/SDWebImageClassDiagram.png)
 
-![SDWebImageSequenceDiagram](/Users/guomanli/Downloads/SDWebImageSequenceDiagram.png)
+![SDWebImageSequenceDiagram](https://github.com/authhwang/webImageFrameworkCompareFromYYWebImageAndSDWebImage/tree/master/SDWebImage/Pics/SDWebImageSequenceDiagram.png)
 
 从这两张图中可以看出 整个流程最重要的几个类是UIView(WebCache)、SDWebImageManager、SDWebImageCache、SDWebImageDownloader 
 

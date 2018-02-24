@@ -16,7 +16,7 @@ YYWebImage的结构如下（图是盗用一下～）
 
 * [YYImageCoder](./YYImageCoder)
 * [YYWebImageOperation](./YYWebImageOperation)
-* [YYAnimationImageView](./YYAnimationImageView)
+* [YYAnimatedImageView](./YYAnimatedImageView)
 
 为什么会将其分成这三个部分 而不是按照图片的结构去划分呢 我觉得三个类YYImage YYFrameImage YYSpriteSheetImage可以直接看其源码就能明白其作用
 
